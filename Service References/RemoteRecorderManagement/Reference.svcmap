@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b0bd4113-ad13-4a98-a31f-f12bb41391e5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pantesthotfix01.panopto.local/Panopto/PublicAPI/4.0/RemoteRecorderManagement.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RemoteRecorderManagement7.xsd" MetadataType="Schema" ID="a865dcfb-0839-4459-a88c-a8a6e876f19a" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?xsd=xsd1" />
+    <MetadataFile FileName="RemoteRecorderManagement1.disco" MetadataType="Disco" ID="2180e966-d8d8-47aa-abda-4a0040afe23f" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?disco" />
+    <MetadataFile FileName="RemoteRecorderManagement71.xsd" MetadataType="Schema" ID="8bc36f2a-9eee-4be4-9174-da3506c823cc" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?xsd=xsd2" />
+    <MetadataFile FileName="RemoteRecorderManagement72.xsd" MetadataType="Schema" ID="ecd0b18f-4553-4fd2-9d4e-45d6232388f6" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?xsd=xsd0" />
+    <MetadataFile FileName="RemoteRecorderManagement1.wsdl" MetadataType="Wsdl" ID="361b7338-364c-40f7-96f7-a3fbcf2b7e10" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?wsdl" />
+    <MetadataFile FileName="RemoteRecorderManagement73.xsd" MetadataType="Schema" ID="4ac8c518-52ce-440d-a02b-f963b9d81e16" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?xsd=xsd3" />
+    <MetadataFile FileName="RemoteRecorderManagement74.xsd" MetadataType="Schema" ID="2f49f1e1-5c55-45a4-b35a-8605a007dfe9" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/RemoteRecorderManagement.svc?xsd=xsd4" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

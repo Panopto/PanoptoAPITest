@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="701c9c89-a4c0-4736-8185-ea4f38060935" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pantesthotfix01.panopto.local/Panopto/PublicAPI/4.0/Auth.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Auth1.disco" MetadataType="Disco" ID="4ca289d1-1b4f-4a32-818d-8755db53c227" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/Auth.svc?disco" />
+    <MetadataFile FileName="Auth1.wsdl" MetadataType="Wsdl" ID="bae88f0f-22fb-4680-8728-07a19cc540fd" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/Auth.svc?wsdl" />
+    <MetadataFile FileName="Auth2.xsd" MetadataType="Schema" ID="a53b6a9a-dc02-412f-b0d9-0b4eef8445d8" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/Auth.svc?xsd=xsd1" />
+    <MetadataFile FileName="Auth21.xsd" MetadataType="Schema" ID="9c6f0bd4-efbd-497b-b615-ff882f801cbf" SourceId="1" SourceUrl="https://pantesthotfix01.panopto.local/Panopto/PublicAPISSL/4.0/Auth.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
