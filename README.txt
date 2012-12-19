@@ -10,5 +10,6 @@ Build steps:
 - Edit app.config, ensure the following are set:
   - For all bindings, security mode attribute should be "Transport"
   - For all endpoints, there should be a behaviorConfiguration attribute set to "EnableCookieManager"
+- Update user credentials passed to LogOnWithPassword() in Program.cs
 - Build project
 

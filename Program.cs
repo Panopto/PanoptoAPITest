@@ -1,4 +1,12 @@
-﻿using System;
+﻿/// <copyright file="Program.cs" company="Panopto Inc.">
+/// Copyright (c) 2012 All Rights Reserved
+/// </copyright>
+/// <summary>
+/// Sample C# client that uses the Panopto PublicAPI
+/// This sample shows how to use cookie-based authentication with the Panopto PublicAPI
+/// </summary>
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +15,6 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace PanoptoAPITest
 {
-    /// <summary>
-    /// This sample shows how to use cookie-based authentication with the Panopto PublicAPI
-    /// </summary>
     class Program
     {
         static bool hasBeenInitialized = false;
