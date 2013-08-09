@@ -10,6 +10,8 @@ Build steps:
 - Edit app.config, ensure the following are set:
   - For all bindings, security mode attribute should be "Transport"
   - For all endpoints, there should be a behaviorConfiguration attribute set to "EnableCookieManager"
+  - Endpoint URLs should reference "PublicAPI", not "PublicAPISSL", eg:
+    - https://[servername]/Panopto/PublicAPI/4.0/Auth.svc
 - Update user credentials passed to LogOnWithPassword() in Program.cs
 - Build project
 
